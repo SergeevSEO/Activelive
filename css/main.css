@@ -1,0 +1,451 @@
+/*-------Fonts-------*/
+
+
+/*-------Specification-------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #6c7279;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 200px;
+    padding: 11px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #e84545;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+    color: #fff;
+}
+
+.btn:active {
+    box-shadow: none
+}
+
+/*-------Header-------*/
+
+.header {
+    background: #343540 url(../img/city.jpg) top center no-repeat;
+}
+
+.head {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-weight: bold;
+    color: #626fe4;
+}
+
+.menu {
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+.menu__item {
+    list-style: none;
+    padding: 38px 39px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+
+.menu__item:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu__item:last-child {
+    padding-right: 0;
+}
+
+.menu__item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.utp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 183px 0 243px;
+}
+
+.utp__title {
+    margin-bottom: 29px;
+}
+
+.utp__text {
+    font-size: 22px;
+    width: 550px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------Features-------*/
+
+.features {
+    padding: 121px 0 25px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 57px;
+}
+
+.feature__img {
+    margin-bottom: 28px;
+}
+
+.feature__title {
+    font-weight: bold;
+    color: #2d3033;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.feature__text {
+    padding: 0 24px;
+}
+
+/*-------Gallery-------*/
+
+.gallery {
+    padding: 24px 0 103px;
+}
+
+.project {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(232, 69, 69, 0.9);
+    opacity: 0;
+    transition: all ease 0.5s;
+
+}
+
+.project__overlay:hover {
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+}
+
+.project__title {
+    font-weight: bold;
+}
+
+/*-------Team-------*/
+
+.team {
+    padding: 125px 0 116px;
+    background: #f1f2fd;
+}
+
+.member__img {
+    margin-bottom: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.member__name {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2d3033;
+}
+
+.member__post {
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.member__text {
+    padding-right: 4px;
+    margin-bottom: 27px;
+}
+
+.member__socials {
+    display: flex;
+}
+
+.member__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e8ecee;
+    background: #fff;
+    margin-right: 4px;
+}
+
+.member__link i {
+    font-size: 20px;
+    color: #c6cacc;
+}
+
+.member__link i:hover {
+    color: #0d6efd;
+}
+
+/*-------Quotation-------*/
+
+.container-fluid_plain {
+    padding: 0;
+}
+
+.susan-foto {
+    background: #e0e4e7 url('../img/foto.jpg') no-repeat center right /cover;
+    height: 500px;
+}
+
+.quote {
+    background: #53354a;
+    color: #fff;
+    padding: 128px 0 152px 80px;
+}
+
+.quote__text {
+    font-size: 36px;
+    font-style: italic;
+    width: 90%;
+    line-height: 43px;
+    margin-bottom: 29px;
+}
+
+.quote__author {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*-------Download-------*/
+
+.download {
+    padding: 95px 0 100px;
+}
+
+.start {
+    color: #2d3033;
+    text-align: center;
+}
+
+.start__text {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 39px;
+}
+
+.start__btn {
+    width: 280px;
+}
+
+/*-------Footer-------*/
+
+.footer {
+    background: #3a3e64;
+    padding-top: 86px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.footer-info__text {
+    padding: 0 15px;
+    color: #afb0bc;
+}
+
+.footer-info__text_center {
+    padding-top: 10px;
+    color: #707179;
+}
+
+.footer-info_red {
+    color: #e84545;
+}
+
+.footer-info_white {
+    color: #fff;
+}
+
+.footer-line {
+    height: 12px;
+    background: #313454;
+    margin-top: 74px;
+}
+
+/*-------Media-------*/
+
+@media screen and (min-width: 992px) {
+    .quote {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .container {
+        width: 1200px;
+    }
+
+    .quote__text {
+        width: 520px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .menu__item {
+        padding: 38px 20px;
+    }
+    
+    .utp {
+        padding: 156px 0 216px;
+    }
+
+    .team {
+        padding-bottom: 80px
+    }
+
+    .member {
+        margin-bottom: 40px
+    }
+
+    .quote {
+        padding: 80px 0 80px 70px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .logo {
+        text-align: center;
+        padding-top: 20px
+    }
+
+    .menu__item {
+        padding: 22px 28px;
+    }
+
+    .utp {
+        padding: 140px 0 200px;
+    }
+
+    .footer-info__text_center {
+        padding-top: 0;
+        margin-bottom: 30px
+    }
+
+    .susan-foto {
+        height: 430px;
+    }
+
+    .quote__text {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .utp__text {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    .feature {
+        max-width: 300px;
+        margin: 0 auto 48px;
+    }
+
+    .project {
+        max-width: 300px;
+        margin: 0 auto 22px;
+    }
+    .member {
+        max-width: 300px;
+        margin: 0 auto 40px;
+    }
+
+    .quote {
+        padding: 50px 0 60px 66px;
+    }
+
+    .susan-foto {
+        height: 300px;
+    }
+
+    .quote__text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .quote__author {
+        font-size: 11px;
+    }
+
+    .footer {
+        padding-top: 66px;
+    }
+
+    .footer-info {
+        margin: 0 auto 35px;
+        max-width: 300px;
+    }
+}
+
+ 
+
+
+ 
